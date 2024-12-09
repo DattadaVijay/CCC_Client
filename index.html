@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Triple-C | Sustainable Concrete</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="hero">
+        <nav class="navbar">
+            <div class="logo">
+                <a href="index.html">
+                <img src="CCC_logo.png" alt="Company Logo" />
+            </div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="hero-content">
+            <h1>Sustainable Concrete for a Greener Future</h1>
+            <p>Eco-friendly solutions that redefine construction.</p>
+            <a href="#products" class="cta-btn">Explore Products</a>
+        </div>
+    </header>
+
+    <main>
+        <section id="about" class="section">
+            <h2>About Us</h2>
+            <p>
+                Canada Concrete Clinic (Triple-C) is redefining the construction industry with eco-conscious innovations. We specialize in cutting-edge clean-tech concrete solutions, designed to thrive in diverse environmental conditions while reducing carbon emissions. As a women-led and immigrant-founded business, we’re passionate about creating a sustainable future by combining advanced technology, environmental stewardship, and a commitment to diversity. Triple-C is proud to be a leader in fostering greener, smarter, and more inclusive construction practices.
+            </p>
+        </section>
+        
+
+        <section id="products" class="section">
+            <h2>Our Products</h2>
+            <div class="products-grid">
+                <div class="product-card">
+                    <img src="CleanTech.jpg" alt="Clean-Tech Concrete">
+                    <h3>Clean-Tech Concrete</h3>
+                    <p>Advanced, sustainable concrete designed to perform in various climates, including harsh winters. High durability and low carbon emissions.</p>
+                </div>
+                <div class="product-card">
+                    <img src="AI_Supply.jpg" alt="AI-Optimized Supplychain">
+                    <h3>AI-Optimized Supplychain</h3>
+                    <p>Leveraging AI-driven solutions to meet demands at the right time while ensuring cost-efficiency and resource optimization.</p>
+                </div>
+                <div class="product-card">
+                    <img src="proj_mang.jpg" alt="Smart Construction Project Management Solutions">
+                    <h3>Smart Construction Project Management Solutions</h3>
+                    <p>A unique model offering construction project management with efficient, reliable supply to minimize delays and optimize timelines.</p>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="section contact-section">
+            <h2>Contact Us</h2>
+            <p>We'd love to hear from you! Please fill out the form below.</p>
+            <div class="contact-card">
+                <form action="http://127.0.0.1:5000/submit-form" method="POST">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+                
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+                
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+                
+                    <div class="form-actions">
+                        <button type="submit" class="btn-submit">Submit</button>
+                    </div>
+                </form>
+                
+                
+            </div>
+        </section>
+        
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Triple-C. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
